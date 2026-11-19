@@ -106,6 +106,8 @@ python tests/verify_load.py "/tmp/synth/Online Retail.csv"   # fact table vs. so
 python tests/verify_queries.py "/tmp/synth/Online Retail.csv" # key queries vs. pandas
 ```
 
+preview.webp
+
 ## 11. Design decisions and interpretations (documented ambiguities)
 * **processing_mode** is not defined in the PDF. Interpretation: `Live` (online, joined straight from the stream),
   `Hourly` (periodic, extracted by the hourly group), `Shed-Replay` (periodic, shed under load and processed later).
